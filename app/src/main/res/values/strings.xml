@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">swoosh</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="todo">TODO</string>
+    <string name="baller">Baller</string>
+    <string name="beginner">Beginner</string>
+    <string name="finish">Finish</string>
+    <string name="baller">Baller</string>
+    <string name="baller">Baller</string>
+    <string name="beginner">Beginner</string>
+    <string name="beginner">Beginner</string>
 </resources>
