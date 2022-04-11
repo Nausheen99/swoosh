@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/nextBtn"
         android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
@@ -52,6 +52,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#65000000"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="nextfun"
         android:text="NEXT"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,7 +63,7 @@
         app:strokeWidth="3dp" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/womenBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -70,6 +71,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="onWomenClick"
         android:text="Womens"
         android:textColor="#FFFFFF"
         android:textOff="WOMENS"
@@ -78,10 +80,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/menBtn" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/menBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -89,6 +91,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="onMenClick"
         android:text="Mens"
         android:textColor="#FFFFFF"
         android:textOff="Mens"
@@ -100,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/coedBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -108,6 +111,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="onCoedClick"
         android:text="Co-ed"
         android:textColor="#FFFFFF"
         android:textOff="Co-ed"
@@ -116,5 +120,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+        app:layout_constraintTop_toBottomOf="@+id/womenBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

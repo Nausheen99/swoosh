@@ -46,13 +46,14 @@
         tools:ignore="TextContrastCheck" />
 
     <ToggleButton
-        android:id="@+id/toggleButton4"
+        android:id="@+id/beginnerBtn"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="onBeginnerClick"
         android:text="@string/beginner"
         android:textColor="#FFFFFF"
         android:textOff="@string/beginner"
@@ -62,13 +63,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <ToggleButton
-        android:id="@+id/toggleButton5"
+        android:id="@+id/ballerBtn"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/swoosh_toggle"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="onBallerClick"
         android:text="@string/baller"
         android:textColor="#FFFFFF"
         android:textOff="@string/baller"
@@ -78,13 +80,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/finishBtn"
         android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/montserrat_alternates_medium"
+        android:onClick="finishfun"
         android:text="@string/finish"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
