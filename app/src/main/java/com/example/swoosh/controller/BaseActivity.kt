@@ -1,15 +1,20 @@
-package com.example.swoosh
+package com.example.swoosh.controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.swoosh.EXTRA_PLAYER
 
 open class BaseActivity : AppCompatActivity() {
     val TAG = "LifeCycle"
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "${javaClass.simpleName} OnCreate")
         super.onCreate(savedInstanceState)
     }
+
+
 
     override fun onStart() {
             Log.d(TAG, "${javaClass.simpleName} OnStart")
